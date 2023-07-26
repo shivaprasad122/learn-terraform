@@ -23,17 +23,18 @@ variable "course" {
 }
 
 variable "courses" {
-  default = {
-    "Dveops",
+  default = [
+    "Devops",
     "AWS",
-    "Pyhton"
+    "Python"
+    ]
   }
-}
+
 
 variable "course_details" {
   default= {
     Devops = {
-      name= "Dveops"
+      name= "Devops"
       timing= "10am"
       duration=50
     }
