@@ -7,5 +7,6 @@ terraform {
 }
 
 output "demo" {
+
   value= "Hello World"
 }
