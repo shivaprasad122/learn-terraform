@@ -47,7 +47,7 @@ variable "course_details" {
 }
 
 output "course" {
-  value=var.courses
+  value=var.course
 }
 
 output "courses" {
