@@ -3,5 +3,5 @@ output "sample" {
 }
 
 output "sample1" {
-  value= 100
+  value= 200
 }
