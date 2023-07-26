@@ -7,11 +7,11 @@ variable "sample1" {
 }
 
 output "sample" {
-  variable= var.sample
+  value= vars.sample
 }
 
 output "sample1" {
-  variable=var.sample1
+  value=vars.sample1
 }
 
 output "sample-ext" {
