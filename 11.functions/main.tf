@@ -39,3 +39,9 @@ output "aws_topics" {
 output "fruit_cont" {
   value=element(var.fruits,4)
 }
+variable "a" {
+   default=100
+}
+output "a" {
+  value=var.a>100 ? "surplus quantity" : "Less quantity"
+}
