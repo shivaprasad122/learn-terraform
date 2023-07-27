@@ -20,7 +20,7 @@ variable "classes" {
       name = "devops"
       topics = ["jenkins","docker"]
     }
-    AWS= {
+    aws= {
       name ="aws"
     }
 
@@ -32,5 +32,5 @@ output "devops_topics" {
 }
 
 output "aws_topics" {
-  value= lookup(lookup(var.classes,"aws",null), "topics",null)
+  value = lookup(lookup(var.classes, "aws", null), "topics",null)
 }
