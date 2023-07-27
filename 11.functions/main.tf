@@ -22,6 +22,7 @@ variable "classes" {
     }
     aws = {
       name = "aws"
+
     }
 
   }
