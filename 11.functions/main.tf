@@ -43,5 +43,5 @@ variable "a" {
    default=100
 }
 output "a" {
-  value=var.a>100 ? "surplus quantity" : "Less quantity"
+  value=var.a>10 ? "surplus quantity" : "Less quantity"
 }
