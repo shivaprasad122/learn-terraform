@@ -20,8 +20,8 @@ variable "classes" {
       name = "devops"
       topics = ["jenkins","docker"]
     }
-    aws= {
-      name ="aws"
+    aws = {
+      name = "aws"
     }
 
   }
